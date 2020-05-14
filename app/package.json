@@ -1,0 +1,23 @@
+{
+  "name": "express-deploy",
+  "version": "0.0.1",
+  "description": "Combination of ssh-deploy-release and express to trigger it",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./app/server.js",
+    "start": "node ./app/server.js"
+  },
+  "author": "Igor Olhovskiy",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "git-clone-or-pull": "^4.0.0",
+    "ssh-deploy-release": "^3.0.4",
+    "tmp": "^0.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
